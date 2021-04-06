@@ -1,6 +1,17 @@
 import {Dimensions} from 'react-native';
 const {width, height} = Dimensions.get('window');
 
+import * as Font from 'expo-font';
+import { AppLoading } from 'expo';
+
+const fetchFonts = () => {
+return Font.loadAsync({
+'Roboto-Bold': require('../assets/fonts/Roboto-Bold.ttf'),
+'Roboto-Black': require('../assets/fonts/Roboto-Black.ttf'),
+'Roboto-Regular': require('../assets/fonts/Roboto-Regular.ttf')
+});
+};
+
 export const COLORS = {
   // base colors
   primary: '#FC6D3F', // orange
