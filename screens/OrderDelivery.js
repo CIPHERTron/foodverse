@@ -281,7 +281,6 @@ const OrderDelivery = ({ route, navigation }) => {
                         </View>
                     </View>
 
-                    {/* Buttons */}
                     <View
                         style={{
                             flexDirection: 'row',
@@ -336,7 +335,7 @@ const OrderDelivery = ({ route, navigation }) => {
                     justifyContent: 'space-between'
                 }}
             >
-                {/* Zoom In */}
+                
                 <TouchableOpacity
                     style={{
                         width: 60,
@@ -351,7 +350,6 @@ const OrderDelivery = ({ route, navigation }) => {
                     <Text style={{ ...FONTS.body1 }}>+</Text>
                 </TouchableOpacity>
 
-                {/* Zoom Out */}
                 <TouchableOpacity
                     style={{
                         width: 60,
